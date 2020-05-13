@@ -1,0 +1,20 @@
+-r
+C:\Users\PC\source\repos\lab3avp\lab3avp\VTune Profiler Results\lab3avp\r003tr
+--stack-stitching
+--data-limit-mb=1000
+--disk-space-limit=0
+--mrte-type=java,dotnet,python
+--itt-config=openmp
+--gpu-profiling-type=none
+--itt-config=frame
+--itt-config=task,event,counter
+--stackwalk=offline
+--mrte-mode=auto
+--type=cpu:counters:nostack
+--type=cpu:stack
+--interval=10
+--type=threading:stack
+--type=waiting:stack
+--type=io:stack
+--
+C:\Users\PC\source\repos\lab3avp\Release\lab3avp.exe
